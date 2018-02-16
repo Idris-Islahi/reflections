@@ -1,0 +1,2 @@
+When a repository is initailized, a git tracking mechanism is associated to every tracked file inside the provided directory.
+Tracking is very necessary for version control.

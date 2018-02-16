@@ -1,0 +1,17 @@
+By using diff on two files, I noticed the following:
+1. It compares the content line-by-line to show you what kind of additions or subtractions have taken place from the original file.
+2. The sequence of files is important so that we might find the correct changes that we are looking for.
+
+By having different versions of the history of the files, the programmer can, at any point in time go back to any of the previously saved versions. In this way, data is preserved, allowing an increase in flexibility and decrease in time consumed to make changes to a single version of the same file and copying it time and again.
+
+Pros of manual commit are that you may never be disturbed while at work for the file to save and unnecessary commits need to be avoided.
+Cons are that sometimes, due to personal negligence, data isn't saved frequently enough so important information may be lost.
+
+When two or more files are inter-connected, the changes made to each of the files need to be tracked simultaneously. Therefore, the best way to do so is to save multiple files in a single commit.
+
+By using git log, we get the entire commit historu of the files in the repository. Each commit is uniquelu identified by an SHA26 code. 
+By using the git diff command, we can compare all the differences between two commit versions. We can use the command git diff and then paste the two codes for the commit versions.
+
+Version control allows a user to make destructive changes, which, in the correct sense are not destructive as previous versions of the file may be retrieved irrespective of whether the commit ID is known or not.
+
+I want to start using Git to actually be able to manipulate and switch between different versions of a file in a manner that is efforless. And I wish to begin coding at Github as soon as possible!!
