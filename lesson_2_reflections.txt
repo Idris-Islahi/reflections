@@ -1,3 +1,46 @@
 When a repository is initailized, a git tracking mechanism is associated to every tracked file inside the provided directory.
 Tracking is very necessary for version control.
 Staging area provides an exclusive platform to commit the changes made inside the repository. It eases the job of git in handling files that are important to be tracked.
+
+Each time a logical change is made, the tracked file that is in the staged area will be committed. Until a logical change is not made, commit will never be produced. If a file isn't to be tracked, it shall not be staged.
+
+Branches will be helpful in case a unique form of the already present file needs to be created. 
+
+ Diagrams allow us to visualize the linear branches with corresponding commits. It's an easy and logical representation of sequence of commits.
+
+* 44c608e 
+*   7fa4d94 
+|\
+| * 354dfdd 
+| * 0c6daf1 
+| * a3c0ae4 
+| * 656b02e 
+* | acb1726 
+* | 3884eab 
+* | 3e42136 
+* | 4035769 
+* | 25ede83 
+* | df03538 
+|/
+* 
+
+*   3fcf371 (HEAD -> master) 
+|\
+| * af58801 (easy-mode) 
+* | 44c608e 
+* |   7fa4d94 
+|\ \
+| * | 354dfdd (origin/coins) 
+| * | 0c6daf1 
+| * | a3c0ae4 
+| * | 656b02e 
+* | | acb1726 
+| |/
+|/|
+* | 3884eab (origin/master, origin/HEAD) 
+* | 3e42136 
+* | 4035769 
+* | 25ede83 
+* | df03538 
+|/
+* b0678b1 
